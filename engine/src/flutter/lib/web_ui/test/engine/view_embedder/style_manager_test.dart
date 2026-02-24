@@ -27,7 +27,10 @@ void doTests() {
         styleNonce: 'testing',
         cssSelectorPrefix: DomManager.flutterViewTagName,
       );
+<<<<<<< HEAD
 
+=======
+>>>>>>> 90673a4eef275d1a6692c26ac80d6d746d41a73a
       final expected = isFirefox ? 'rgb(0, 0, 0) 0px' : 'rgb(0, 0, 0) none 0px';
 
       // Focus the element.
